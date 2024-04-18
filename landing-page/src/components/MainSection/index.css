@@ -1,0 +1,43 @@
+.mainSection {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  padding: 0 40px 0 200px;
+  text-align: center;
+  gap: 80px;
+}
+
+.imgContent {
+  position: absolute;
+  z-index: 999;
+  left: 12%;
+}
+
+.imgContent > .imgMain {
+  width: 450px;
+  border-radius: 10px;
+}
+
+.leftMainContent {
+  background-color: #D38141;
+  height: 100%;
+  width: 400px;
+}
+
+.mainText {
+  width: 750px;
+}
+.mainText h1 {
+  font-size: 1.8rem;
+  word-break: break-all;
+  text-align: start;
+}
