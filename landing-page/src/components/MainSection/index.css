@@ -42,3 +42,35 @@
   word-break: break-all;
   text-align: start;
 }
+
+@media only screen and (max-width: 750px){
+
+  .mainSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .leftMainContent{
+    display: none;
+  }
+
+  .imgContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 0%;
+  }
+  .mainSection{
+    height: 100%;
+  }
+  .mainContent{
+    margin-top: 40px;
+    height: 100%;
+    width: 100%;
+    padding: 0 20px 0 20px;
+  }
+}

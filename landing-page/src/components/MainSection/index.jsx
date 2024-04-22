@@ -11,7 +11,7 @@ export function MainSection() {
         </div>
         <div className="imgContent">
           <img className="imgMain" src={imgMain} alt="" />
-      
+
         </div>
         <div className="mainContent">
           <div className="mainText">
