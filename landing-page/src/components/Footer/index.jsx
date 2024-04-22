@@ -14,7 +14,7 @@ export function Footer() {
                         </svg>
                     </a>
                 </div>
-                <div>
+                {/* <div className="list-footer">
                     <ul >
                         <li>
                             <a href="#">Home</a>
@@ -26,7 +26,7 @@ export function Footer() {
                             <a href="#">Contate-nos</a>
                         </li>
                     </ul>
-                </div>
+                </div> */}
             </div>
         </>
     );
