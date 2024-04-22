@@ -1,3 +1,4 @@
+
 .bg-color-1 {
   background-color: #baf5bd;
 }
@@ -19,18 +20,13 @@
 .bg-color-7 {
   background-color: #DED7D5;
 }
-.text-color-1 {
-  color: #baf5bd;
-}
-.text-color-2 {
-  color: #000;
-}
-.text-color-3 {
-  color: #6bbf6f;
-}
-.text-color-4 {
-  color: #f2f5f2;
-}
-.text-color-5 {
-  color: #ffd30d;
+
+:root{
+  --color-1: #baf5bd;
+  --color-2: #7dd183;
+  --color-3: #1a991a;
+  --color-4: #f2f5f2;
+  --color-5: #ffd30d;
+  --color-6: #311A99;
+  --color-7: #DED7D5;
 }

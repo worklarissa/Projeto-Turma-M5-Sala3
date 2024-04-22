@@ -6,6 +6,7 @@
   align-items: center;
 }
 .mainContent {
+  background-color: --bs-success;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,13 +23,13 @@
   left: 12%;
 }
 
-.imgContent > .imgMain {
-  width: 450px;
+.imgMain {
   border-radius: 10px;
+  width: clamp(200px, 45%, 280px);
 }
 
 .leftMainContent {
-  background-color: #D38141;
+  background-color: #d38141;
   height: 100%;
   width: 400px;
 }
@@ -37,7 +38,7 @@
   width: 750px;
 }
 .mainText h1 {
-  font-size: 1.8rem;
+  font-size: max(18px, 1.7vw);
   word-break: break-all;
   text-align: start;
 }

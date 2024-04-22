@@ -7,14 +7,14 @@ export function MiddleSection(){
     <>
       <section className="middleSection">
         <div className="fundo-titulo-midsec">
-          <div className="titulo-midsec bg-color-6 text-color-4">
+          <div className="titulo-midsec">
             <h2>As Raízes do Problema</h2>
           </div>
         </div>
         <div className="cards-line">
             <div>
-              <Card className="bg-color-7">
-                <Card.Body>Devido à sua grande população pobre, alto PIB per 
+              <Card>
+                <Card.Body >Devido à sua grande população pobre, alto PIB per 
                   capita e alto grau de desigualdade de renda, criando condições 
                   favoráveis para políticas redistributivas. O contexto brasileiro
                    combina desafios econômicos com potencial para mudança através 

@@ -14,7 +14,7 @@ export function MainSection() {
       
         </div>
         <div className="mainContent">
-          <div className="mainText text-color-2">
+          <div className="mainText">
             <h1>
               O Brasil emerge como um estudo crucial para compreender as
               dinâmicas de pobreza e desigualdade, especialmente em áreas
